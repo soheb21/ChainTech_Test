@@ -22,14 +22,18 @@ SESSION_SECRET_KEY="@testing1234"
 step 4: now type "npm start" in vs code terminal it will start the project on localhost 
 
 Testing:
+
 for Testing these project please use poastman or related software for testing API.
 For eg: open Postman create a new request like post request and register the user
 like: http://localhost:8000/api/v1/auth/register and provide email and password
+
 then login
 like: http://localhost:8000/api/v1/auth/login and provide email and password
+
 After registration
 now user can create ,read,update and delete the task
 like: http://localhost:8000/api/v1/task {make sure you set the request according to your need like POST,GET,PATCH,DELETE before calling any API)
+
 if user want to update or delete the task then make sure user provide task id.
 like: http://localhost:8000/api/v1/task/65b247402942a2baa0d7dass   {make sure you set the request according to your need like PATCH,DELETE before your any API)
 
