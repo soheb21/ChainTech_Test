@@ -11,7 +11,7 @@ PORT=8000
 SESSION_SECRET_KEY="@testing1234"
 }
 step 4: now type "npm start" in vs code terminal it will start the project on localhost 
-
+<br/>
 Testing:
 for Testing these project please use poastman or related software for testing API.
 For eg: open Postman create a new request like post request and register the user
