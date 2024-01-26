@@ -10,9 +10,13 @@ step 2: After cloneing now type "npm install" in vs code terminal
 
 step 3: create .env file and provide all field names for these project i have provide 3 field
 example:{
+
 MONGO_URL="mongodb://127.0.0.1:27017/ChainTech_Test"
+
 PORT=8000
+
 SESSION_SECRET_KEY="@testing1234"
+
 }
 
 step 4: now type "npm start" in vs code terminal it will start the project on localhost 
