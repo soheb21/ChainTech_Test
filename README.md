@@ -21,9 +21,9 @@ then login
 like: http://localhost:8000/api/v1/auth/login and provide email and password
 After registration
 now user can create ,read,update and delete the task
-like: http://localhost:8000/api/v1/task {make sure you set the request according to your need like POST,GET,PATch,DELETE before calling any API)
+like: http://localhost:8000/api/v1/task {make sure you set the request according to your need like POST,GET,PATCH,DELETE before calling any API)
 if user want to update or delete the task then make sure user provide task id.
-like: http://localhost:8000/api/v1/task/65b247402942a2baa0d7dass   {make sure you set the request according to your need like PATch,DELETE before your any API)
+like: http://localhost:8000/api/v1/task/65b247402942a2baa0d7dass   {make sure you set the request according to your need like PATCH,DELETE before your any API)
 
 Security :
 I have use Passport libaray for Authentication in our project and bcrypt for password encryption so, the user doesn't need to worry about his personal information
