@@ -3,9 +3,9 @@ const TaskModel = require("../model/taskModel");
 exports.getAllTaskbyUser = async (req, res) => {
     try {
         const { id } = req.user;
-        console.log({ id })
         const doc = await TaskModel.find({ userID: id }).sort({ created_at: 'descending' });
-        res.status(201).json({ success: true, message: "Task created by username", data: doc })
+        if (!doc) return res.status(204).json({ success: true, message: "No tasks Available" })
+        res.status(201).json({ success: true, message: "Task is created", data: doc })
 
     } catch (error) {
         console.log("getAllTaskbyUser error", error)

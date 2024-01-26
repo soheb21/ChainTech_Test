@@ -6,7 +6,6 @@ const bcrypt = require("bcrypt")
 const LocalStategy = new localStrategy({ usernameField: "email" }, async (email, password, done) => {
     try {
         const user = await UserModel.findOne({ email });
-
         if (!user) {
             done(null, false, { error: 'no such user email' });
         }
