@@ -4,7 +4,7 @@ Tech I am using :- Nodejs ,ExpressJs, Mongoose, PassportJs, bcrypt, Passport-loc
 
 Steps:
 
-step 1: clone this repository on your pc by typing these  " https://github.com/soheb21/ChainTech_Test git clone ./" on your vs code terminal
+step 1: clone this repository on your pc by typing these  "git clone https://github.com/soheb21/ChainTech_Test ./" on your vs code terminal
 
 step 2: After cloneing now type "npm install" in vs code terminal
 
